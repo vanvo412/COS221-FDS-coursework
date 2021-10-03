@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B02F18426FF110600C3FB3F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B02F18326FF110600C3FB3F /* main.cpp */; };
+		4B02F19426FF112400C3FB3F /* ContractedSparePart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B02F18A26FF112400C3FB3F /* ContractedSparePart.cpp */; };
+		4B02F19526FF112400C3FB3F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B02F18B26FF112400C3FB3F /* main.cpp */; };
+		4B02F19626FF112400C3FB3F /* SparePart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B02F18C26FF112400C3FB3F /* SparePart.cpp */; };
+		4B02F19726FF112400C3FB3F /* Vehicle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B02F18F26FF112400C3FB3F /* Vehicle.cpp */; };
+		4B02F19826FF112400C3FB3F /* AvailableSparePart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B02F19126FF112400C3FB3F /* AvailableSparePart.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +28,15 @@
 
 /* Begin PBXFileReference section */
 		4B02F18026FF110600C3FB3F /* HW2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HW2; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B02F18326FF110600C3FB3F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4B02F18A26FF112400C3FB3F /* ContractedSparePart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ContractedSparePart.cpp; path = ../../HW1/HW1/ContractedSparePart.cpp; sourceTree = "<group>"; };
+		4B02F18B26FF112400C3FB3F /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../../HW1/HW1/main.cpp; sourceTree = "<group>"; };
+		4B02F18C26FF112400C3FB3F /* SparePart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SparePart.cpp; path = ../../HW1/HW1/SparePart.cpp; sourceTree = "<group>"; };
+		4B02F18D26FF112400C3FB3F /* SparePart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SparePart.h; path = ../../HW1/HW1/SparePart.h; sourceTree = "<group>"; };
+		4B02F18E26FF112400C3FB3F /* AvailableSparePart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AvailableSparePart.h; path = ../../HW1/HW1/AvailableSparePart.h; sourceTree = "<group>"; };
+		4B02F18F26FF112400C3FB3F /* Vehicle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vehicle.cpp; path = ../../HW1/HW1/Vehicle.cpp; sourceTree = "<group>"; };
+		4B02F19026FF112400C3FB3F /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vehicle.h; path = ../../HW1/HW1/Vehicle.h; sourceTree = "<group>"; };
+		4B02F19126FF112400C3FB3F /* AvailableSparePart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AvailableSparePart.cpp; path = ../../HW1/HW1/AvailableSparePart.cpp; sourceTree = "<group>"; };
+		4B02F19226FF112400C3FB3F /* ContractedSparePart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContractedSparePart.h; path = ../../HW1/HW1/ContractedSparePart.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +69,15 @@
 		4B02F18226FF110600C3FB3F /* HW2 */ = {
 			isa = PBXGroup;
 			children = (
-				4B02F18326FF110600C3FB3F /* main.cpp */,
+				4B02F19126FF112400C3FB3F /* AvailableSparePart.cpp */,
+				4B02F18E26FF112400C3FB3F /* AvailableSparePart.h */,
+				4B02F18A26FF112400C3FB3F /* ContractedSparePart.cpp */,
+				4B02F19226FF112400C3FB3F /* ContractedSparePart.h */,
+				4B02F18B26FF112400C3FB3F /* main.cpp */,
+				4B02F18C26FF112400C3FB3F /* SparePart.cpp */,
+				4B02F18D26FF112400C3FB3F /* SparePart.h */,
+				4B02F18F26FF112400C3FB3F /* Vehicle.cpp */,
+				4B02F19026FF112400C3FB3F /* Vehicle.h */,
 			);
 			path = HW2;
 			sourceTree = "<group>";
@@ -118,7 +138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B02F18426FF110600C3FB3F /* main.cpp in Sources */,
+				4B02F19626FF112400C3FB3F /* SparePart.cpp in Sources */,
+				4B02F19826FF112400C3FB3F /* AvailableSparePart.cpp in Sources */,
+				4B02F19426FF112400C3FB3F /* ContractedSparePart.cpp in Sources */,
+				4B02F19526FF112400C3FB3F /* main.cpp in Sources */,
+				4B02F19726FF112400C3FB3F /* Vehicle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
